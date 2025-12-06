@@ -46,13 +46,18 @@ button {
 .intro {
   padding: 48px 64px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #1f2937;
   gap: 16px;
 }
 
+.placeholder {
+  max-width:750px;
+  height:300px;
+}
+
 .content {
-  flex: 1;
+  flex:1
 }
 
 .title {
@@ -65,12 +70,6 @@ button {
   color: #e5e7eb;
   font-size: 18px;
   margin: 8px 0;
-}
-
-.placeholder {
-  flex: 1;
-  align-self: center;
-  max-width:300px;
 }
 
 .body {
@@ -102,8 +101,7 @@ button {
 }
 
 .placeholder {
-  flex: 1;
-  align-self: center;
+  flex: 1 1 300px;
 }
 
 .information {
@@ -130,7 +128,7 @@ button {
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  justify-contents:space-between;
+  justify-contents: space-between;
 
   img {
     width: 250px;
@@ -139,7 +137,7 @@ button {
 
   .text {
     color: #1f2937;
-    font-size:18px;
+    font-size: 18px;
   }
 }
 
