@@ -4,6 +4,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Roboto";
+  font-family: "Roboto";
 }
 
 ul {
@@ -40,6 +41,35 @@ button {
   font-weight: 900;
   color: #f9faf8;
   font-size: 24px;
+}
+
+.intro {
+  padding: 48px 64px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  gap:16px
+}
+
+.title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.subtitle {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.content {
+  flex: 1;
+}
+
+.placeholder {
+  flex: 1;
+  align-self:center;
 }
 
 .body {
