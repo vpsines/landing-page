@@ -23,10 +23,10 @@ a {
 button {
   background-color: #3882f6;
   color: #e5e7eb;
-  font-weight:bold;
-  border:none;
-  padding:8px 32px;
-  border-radius:5px
+  font-weight: bold;
+  border: none;
+  padding: 8px 32px;
+  border-radius: 5px;
 }
 
 .header {
@@ -42,12 +42,16 @@ button {
   font-size: 24px;
 }
 
+.body {
+  flex: 1;
+}
+
 .intro {
   padding: 48px 64px;
   display: flex;
   justify-content: space-between;
   background-color: #1f2937;
-  gap:16px
+  gap: 16px;
 }
 
 .title {
@@ -68,11 +72,25 @@ button {
 
 .placeholder {
   flex: 1;
-  align-self:center;
+  align-self: center;
 }
 
-.body {
-  flex: 1;
+.information {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  margin:32px auto;
+  .title {
+    color: #1f2937;
+    font-size:32px;
+    font-weight:900;
+  }
+}
+
+.items {
+  display: flex;
+  gap:32px;
+  margin: 32px auto;
 }
 
 .footer {
