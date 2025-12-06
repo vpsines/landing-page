@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   height: 100vh;
   margin: 0;
+  font-family: "Roboto";
 }
 
 ul {
@@ -19,6 +20,15 @@ a {
   font-size: 18px;
 }
 
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight:bold;
+  border:none;
+  padding:8px 32px;
+  border-radius:5px
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -32,9 +42,39 @@ a {
   font-size: 24px;
 }
 
+.intro {
+  padding: 48px 64px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  gap:16px
+}
+
+.title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.subtitle {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.content {
+  flex: 1;
+}
+
+.placeholder {
+  flex: 1;
+  align-self:center;
+}
+
 .body {
   flex: 1;
 }
 
 .footer {
+  background-color: #1f2937;
 }
